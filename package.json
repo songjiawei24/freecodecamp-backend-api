@@ -1,13 +1,13 @@
 {
   "name": "freecodecamp-backend-api",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "back end api codes",
   "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/songjiawei24/freecodecamp-backend-api.git"
   },
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Jiawei",
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4",
