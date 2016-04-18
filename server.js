@@ -44,6 +44,13 @@ router.get('/api/timestamp/:para', function (req, res) {
   res.json(result);
 });
 
+// request header parser
+var whoami = require("./my_modules/whoami.js");
+router.get('/api/whoami', function (req, res) {
+  var result = whoami.parseHeader(req);
+  res.json(result);
+});
+
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
   var addr = server.address();
