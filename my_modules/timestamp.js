@@ -26,7 +26,7 @@ var months = ['January','February','March','April','May','June','July','August',
 
 function parseUnixDate(uDate){
     var a = new Date(uDate*1000);
-    console.log(a);
+    //console.log(a);
     if(checkDate(a)){
         var year = a.getFullYear();
         var month = months[a.getMonth()];

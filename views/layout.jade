@@ -1,0 +1,28 @@
+doctype
+html
+  head
+    title #{title} - freecodecamp-backend-api
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+  body
+    .container
+      header
+        h1 freecodecamp-backend-api
+    .container
+      .main-content
+        block content
+      .sidebar
+        .widget
+          h2 Links
+          p
+            | #[a(href="/api/timestamp") Timestamp Microservice]
+          p
+            | Request Header Parser Microservice
+          p
+            | URL Shortener Microservice
+          p
+            | Image Search Abstraction Layer
+          p
+            | File Metadata Microservice
+        .container
+            footer
+              p Running on node with Express, Jade
